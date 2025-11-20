@@ -1,64 +1,30 @@
-# truyen-toan-rpg-engine
+truyen-toan-rpg-engine
 
-Engine cho game "Truyện Toán" — thể loại story-based RPG tích hợp bài tập toán, nhiều nhánh, mở rộng được.
+Dự án này là một thử nghiệm nhỏ nhằm tạo ra một hệ thống truyện tương tác kết hợp yếu tố giáo dục dành cho học sinh tiểu học và THCS.
+Mục tiêu chính:
 
----
+Xây dựng các câu chuyện ngắn theo dạng chọn lựa (choice-based)
 
-## 🎯 Mục tiêu dự án
-Xây dựng một **Game Engine** tùy biến để tạo:
-- Truyện toán đa nhánh (branching narrative)
-- Chiến đấu bằng bài tập toán (math-combat)
-- Cơ chế nhiệm vụ, vật phẩm, bản đồ node
-- Story builder kéo–thả cho giáo viên & học sinh
-- Hệ thống bài tập toán tự sinh + adaptive difficulty
+Gắn kèm các bài tập toán nhẹ giúp học sinh học vui hơn
 
-Dự án gồm 2 phần chính:
-1. **Core Engine** – logic vận hành (JavaScript)
-2. **Taskcards** – đặc tả kỹ thuật cho 12 module của Engine
+Tạo một không gian để giáo viên và phụ huynh có thể sáng tạo nội dung
 
----
+Dự án hướng đến việc:
 
-## 📁 Cấu trúc thư mục
+Dễ mở rộng nội dung truyện
 
+Mở đường cho các công cụ tạo truyện đơn giản
 
----
+Là môi trường để thử nghiệm ý tưởng giáo dục gamification
 
-## 📌 12 Task Engine (Tổng quan)
+Hiện tại repo chủ yếu chứa:
 
-| Task | Nội dung |
-|------|----------|
-| **01** | Core Engine Runtime |
-| **02** | Story JSON Schema |
-| **03** | Story Builder UI (kéo thả) |
-| **04** | Bản đồ node Map Renderer |
-| **05** | Exercise Engine (bài tập toán) |
-| **06** | Adaptive Difficulty |
-| **07** | Quest System |
-| **08** | Combat Math (chiến đấu bằng bài tập) |
-| **09** | Inventory & Items |
-| **10** | Avatar & Cosmetics |
-| **11** | Asset Loader |
-| **12** | CI/CD + bundling & release |
+Các tệp mô tả task cần làm
 
----
+Định hướng phát triển ban đầu
 
-## 🤝 Đóng góp vào dự án
-Dự án chào đón mọi đóng góp:
-1. Mở issue để đề xuất cải tiến
-2. Gửi pull request theo tiêu chuẩn
-3. Trao đổi trong comment của từng Task Card
+Một số tài liệu để phục vụ xây dựng prototype
 
----
+❗ Đây không phải game engine hoàn chỉnh, chỉ là nền tảng thử nghiệm cho một hướng tiếp cận mới trong việc kể chuyện học tập.
 
-## 📄 Giấy phép (License)
-
-Dự án sử dụng giấy phép **MIT License**, cho phép sử dụng tự do, thương mại hoặc phi thương mại.
-
----
-
-## ✨ Người thực hiện
-- **tonythangphung-lang**
-- GPT 5.1 hỗ trợ kiến trúc & đặc tả kỹ thuật
-
----
-
+Mọi đóng góp hoặc ý tưởng đều được chào đón!
