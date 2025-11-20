@@ -1,0 +1,7 @@
+Task06_Adaptive_Difficulty.md
+Task07_Quest_System.md
+Task08_Combat_Math.md
+Task09_Inventory_Items.md
+Task10_Avatar_Cosmetics.md
+Task11_Asset_Loader.md
+Task12_CI_CD.md
